@@ -2,36 +2,50 @@
 
 *Version française (référence) : [ROADMAP.md](ROADMAP.md).*
 
-**Target:** broad foundational medical knowledge with a neuroscience extension. This is a proposed sequence, not a verified transcription of years 1–2 at a particular faculty. No timetable is fixed until weekly availability and initial assessment are known.
+## Goal
 
-**Profile:** prior advanced mathematics, physics, and engineering. Use diagnostic questions to locate biological gaps; do not automatically repeat school-level mathematics or assume that scientific training supplies anatomy knowledge.
+Self-directed acquisition of the full theoretical knowledge of a general practitioner, with deeper mechanistic understanding than an exam requires, followed by advanced neuroscience.
 
-| Block | Core scope | Visual and mathematical work | Exit evidence |
-|---|---|---|---|
-| 00. Diagnostic | Chemistry, units, cells, DNA, proteins | Concentrations, logarithms, dimensional analysis | Written explanation and calculation; identify gaps |
-| 01. Cell biology | Organelles, membranes, transport, signaling, cell cycle | Compartment diagrams; diffusion and transport models | Explain transport mechanisms and interpret an experiment |
-| 02. Biochemistry | Proteins, enzymes, metabolism, nutrition | Enzyme curves; pathway and regulation maps | Predict consequences of a pathway perturbation |
-| 03. Genetics | Inheritance, gene expression, chromosomes, molecular methods | Pedigrees, probability, experimental controls | Interpret a pedigree and a molecular result |
-| 04. Tissues and development | Histology, embryology, developmental abnormalities | Real micrographs, labeled drawings, developmental sequences | Identify unfamiliar tissue images with justification |
-| 05. General physiology | Homeostasis, compartments, excitable membranes, muscle | Feedback diagrams, equilibrium versus steady state, RC dynamics | Explain regulation and solve physiological perturbations |
-| 06. Defense and injury | Immunology, microbiology, inflammation, repair, cancer | Cell interactions; causal maps; diagnostic uncertainty | Distinguish mechanisms using short cases |
-| 07. Organ systems | Cardiovascular, respiratory, renal, gastrointestinal, endocrine, reproductive, musculoskeletal, skin, blood | Anatomy and histology alongside pressure–flow, gas exchange, balance and endocrine models | Integrate structure, normal function and introductory disease mechanisms |
-| 08. Pharmacology | Pharmacodynamics and pharmacokinetics; major mechanisms | Dose–response and concentration–time curves | Explain model assumptions and predict qualitative effects |
-| 09. Nervous system | Neuroanatomy, synapses, sensation, movement, autonomic function, cognition | Pathways, neural recordings, lesion localization on written cases | Connect cells, circuits, behavior and selected disorders |
-| 10. Evidence and medicine | Biostatistics, epidemiology, ethics, public health, clinical semiology (*sémiologie*) | Study designs, uncertainty intervals, diagnostic probability | Critique a paper and explain competing interpretations |
-| 11. Neuroscience extension | Neural coding, dynamics, computational models and research methods | Reproducible analyses and simulations | Reproduce a result and defend the model's limitations |
+**What "complete" means here.** The clinical scope is anchored on an official, checkable standard: the **367 items of the R2C**, the knowledge curriculum of the second cycle of French medical school, which defines what every doctor knows before residency ([item list](r2c-items.csv), sources S9–S10). Every item is assigned to a module, and [`tools/r2c.py`](../tools/r2c.py) checks that none is missing. The R2C assumes first-cycle knowledge (basic sciences, anatomy, physiology) for which no comparable official list exists; phases F, N and M spell it out. Module T05 adds what is specific to general practice.
 
-Blocks 04, 08 and 10 recur across organ systems; they are not postponed until the end. Learn clinical vocabulary through written cases while recognizing that physical examination and patient assessment require supervised practical teaching.
+**What this repository cannot provide.** Physical examination, procedures, bedside reasoning, real communication and clinical responsibility are learned under supervision. This curriculum confers no degree, equivalence or right to practise. Modules therefore target the meaning and value of signs and procedures, not their execution.
 
-## Starting sequence
+**Starting profile.** Strong mathematics, physics and engineering background. F01 and F02 can be validated quickly after a diagnostic test; chemistry and biology usually need more work; anatomy cannot be derived from first principles.
 
-1. Diagnostic and targeted repair of prerequisites.
-2. Cell organization, membrane composition, concentration gradients.
-3. Diffusion, osmosis, carriers, pumps.
-4. Membrane electricity: potential, current, capacitance, conductance.
-5. Demonstration lesson 001: passive membrane.
-6. Next lessons to author: ionic equilibrium, Nernst equation, multiple-ion permeability, active signaling.
+## Architecture
 
-## Depth
+| Phase | Role | Modules |
+|---|---|---|
+| **F — Scientific foundations** | Basic sciences medicine relies on | F01 Mathematics & statistics · F02 Physics & biophysics · F03 General chemistry · F04 Organic chemistry · F05 Structural biochemistry · F06 Cell biology · F07 Molecular biology & genetics |
+| **N — The normal human** | Anatomy, histology, embryology, physiology by system | N01 Histology & embryology · N02 Metabolism & nutrition · N03 General physiology · N04 Musculoskeletal · N05 Nervous system & senses · N06 Cardiovascular · N07 Respiratory · N08 Blood & haemostasis · N09 Kidney & body fluids · N10 Digestive · N11 Endocrine · N12 Reproduction & growth · N13 Head, neck & skin |
+| **M — Mechanisms of disease and tools** | Linking normal to pathological; diagnostic and therapeutic tools | M01 Immunology · M02 Microbiology · M03 General pathology · M04 Medical genetics · M05 Pharmacology · M06 Clinical semiology & reasoning · M07 Laboratory medicine & imaging |
+| **C — Clinical medicine** | Diseases by discipline; carries most R2C items | C01 Cardiology · C02 Pulmonology · C03 Gastroenterology & hepatology · C04 Nephrology & urology · C05 Endocrinology & nutrition · C06 Haematology · C07 Infectious diseases · C08 Internal medicine & immunopathology · C09 Rheumatology & orthopaedics · C10 Neurology · C11 Psychiatry & addiction · C12 Paediatrics · C13 Obstetrics & gynaecology · C14 Dermatology · C15 Ophthalmology · C16 ENT · C17 Oncology · C18 Geriatrics, pain & palliative care · C19 Emergency, intensive care & anaesthesia |
+| **T — Practice and populations** | Ethics, law, public health, evidence, therapeutics, general practice | T01 Ethics & law · T02 Public health · T03 Evidence & research · T04 Therapeutics · T05 General practice |
+| **X — Extension** | Beyond the generalist | X01 Advanced neuroscience |
 
-Each module has three layers: medical core, mechanistic/mathematical extension, and research appraisal. Complete the core before spending disproportionate time on a favorite derivation. Anatomy, microscopic recognition, and empirical findings remain essential even when they cannot be derived from first principles.
+Module syllabi are written in French only (see the [bilingual policy](QUALITY.en.md#bilingual-policy)); the file list is [`modules.csv`](modules.csv).
+
+## Recommended path
+
+1. **Diagnostic.** Test F01–F07; validate what is known quickly, fill gaps (chemistry, biochemistry, cell biology first).
+2. **Normal + mechanisms.** Study N by system, interleaving M01–M03 once N03 is secure. Anatomy is continuous work.
+3. **Tools.** M04–M07 before clinical modules, especially M06.
+4. **Clinical.** Study each C module right after revising its N module. Suggested order: C01, C02, C04, C03, C05, C06, C07, C08, C09, C10, C11, C14, C15, C16, C12, C13, C17, C18, C19.
+5. **Cross-cutting, throughout.** T03 from F01; T01 and T02 as regular reading; T04 alongside each C module; T05 at the end of phase C.
+6. **Extension.** X01 after N05, C10 and C11.
+
+No timetable is fixed before the diagnostic. For scale, the first two cycles of medical school take six full-time years; a self-directed theoretical path remains a multi-year project.
+
+## Depth levels
+
+- **Core**: what every doctor must know (R2C rank A).
+- **Mastery**: what a doctor needs on day one of residency (rank B), with explicit mechanisms.
+- **Beyond the core**: molecular pathophysiology, landmark trials, controversies, open questions — tackled only after the core.
+
+## Coverage tracking
+
+```bash
+python tools/r2c.py
+```
+
+Reports how many R2C items have written content and flags inconsistencies. After editing `r2c-items.csv` or `modules.csv`, run `python tools/r2c.py sync`.

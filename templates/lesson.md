@@ -1,9 +1,13 @@
 # ID — Titre de la leçon
 
 <!-- Copier ce gabarit dans lessons/NNN-nom/lesson.md (version française de référence).
-     Rédiger ensuite lessons/NNN-nom/lesson.en.md avec la même structure et le même contenu scientifique. -->
+     Rédiger ensuite lessons/NNN-nom/lesson.en.md avec la même structure et le même contenu scientifique.
+     Une leçon explique une notion transversale ; une maladie relève du gabarit fiche-maladie.md.
+     Ajouter le lien de la leçon dans la section « Leçons rédigées » du module concerné. -->
 
 *English version: [lesson.en.md](lesson.en.md).*
+
+Module(s) : [N00](../../programme/) · Items R2C : aucun ou liste
 
 Statut : draft | Dernière vérification des sources : AAAA-MM-JJ | Relecteur indépendant : aucun
 

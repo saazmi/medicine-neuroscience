@@ -1,0 +1,53 @@
+id,phase,titre,fichier,statut_redaction
+F01,F,"Mathématiques, probabilités et statistiques",programme/F01-mathematiques-statistiques.md,draft
+F02,F,Physique et biophysique,programme/F02-physique-biophysique.md,draft
+F03,F,Chimie générale et physico-chimie des solutions,programme/F03-chimie-generale.md,draft
+F04,F,Chimie organique et molécules du vivant,programme/F04-chimie-organique.md,draft
+F05,F,"Biochimie structurale, enzymologie et bioénergétique",programme/F05-biochimie-structurale.md,draft
+F06,F,Biologie cellulaire,programme/F06-biologie-cellulaire.md,draft
+F07,F,Biologie moléculaire et génétique fondamentale,programme/F07-biologie-moleculaire-genetique.md,draft
+N01,N,Histologie et embryologie générales,programme/N01-histologie-embryologie.md,draft
+N02,N,Métabolisme et nutrition,programme/N02-metabolisme-nutrition.md,draft
+N03,N,Physiologie générale et excitabilité,programme/N03-physiologie-generale.md,draft
+N04,N,Appareil locomoteur,programme/N04-appareil-locomoteur.md,draft
+N05,N,Système nerveux et organes des sens,programme/N05-systeme-nerveux.md,draft
+N06,N,Appareil cardiovasculaire,programme/N06-cardiovasculaire.md,draft
+N07,N,Appareil respiratoire,programme/N07-respiratoire.md,draft
+N08,N,"Sang, hématopoïèse et hémostase",programme/N08-sang-hemostase.md,draft
+N09,N,"Rein, liquides de l'organisme et équilibre acido-basique",programme/N09-rein-liquides.md,draft
+N10,N,"Appareil digestif, foie et pancréas",programme/N10-digestif.md,draft
+N11,N,Système endocrinien,programme/N11-endocrinien.md,draft
+N12,N,"Reproduction, grossesse et croissance",programme/N12-reproduction-croissance.md,draft
+N13,N,"Tête, cou et revêtement cutané",programme/N13-tete-cou-peau.md,draft
+M01,M,Immunologie,programme/M01-immunologie.md,draft
+M02,M,"Microbiologie : bactéries, virus, champignons, parasites",programme/M02-microbiologie.md,draft
+M03,M,Pathologie générale et anatomie pathologique,programme/M03-pathologie-generale.md,draft
+M04,M,Génétique médicale,programme/M04-genetique-medicale.md,draft
+M05,M,Pharmacologie générale et spéciale,programme/M05-pharmacologie.md,draft
+M06,M,Sémiologie et raisonnement clinique,programme/M06-semiologie-raisonnement.md,draft
+M07,M,Biologie médicale et imagerie : principes et interprétation,programme/M07-biologie-imagerie.md,draft
+C01,C,Cardiologie et médecine vasculaire,programme/C01-cardiologie-vasculaire.md,draft
+C02,C,Pneumologie,programme/C02-pneumologie.md,draft
+C03,C,Hépato-gastro-entérologie et chirurgie digestive,programme/C03-hepato-gastro.md,draft
+C04,C,Néphrologie et urologie,programme/C04-nephrologie-urologie.md,draft
+C05,C,"Endocrinologie, diabétologie et nutrition",programme/C05-endocrinologie-nutrition.md,draft
+C06,C,Hématologie,programme/C06-hematologie.md,draft
+C07,C,Maladies infectieuses et tropicales,programme/C07-infectiologie.md,draft
+C08,C,"Immunopathologie, allergologie et médecine interne",programme/C08-medecine-interne.md,draft
+C09,C,"Rhumatologie, orthopédie et traumatologie",programme/C09-rhumatologie-orthopedie.md,draft
+C10,C,Neurologie,programme/C10-neurologie.md,draft
+C11,C,Psychiatrie et addictologie,programme/C11-psychiatrie-addictologie.md,draft
+C12,C,Pédiatrie,programme/C12-pediatrie.md,draft
+C13,C,Gynécologie et obstétrique,programme/C13-gynecologie-obstetrique.md,draft
+C14,C,Dermatologie,programme/C14-dermatologie.md,draft
+C15,C,Ophtalmologie,programme/C15-ophtalmologie.md,draft
+C16,C,ORL et chirurgie cervico-faciale,programme/C16-orl.md,draft
+C17,C,Cancérologie générale,programme/C17-cancerologie.md,draft
+C18,C,"Gériatrie, handicap, douleur et soins palliatifs",programme/C18-geriatrie-douleur-palliatif.md,draft
+C19,C,"Urgences, réanimation et anesthésie",programme/C19-urgences-reanimation.md,draft
+T01,T,"Relation, éthique, droit et médecine légale",programme/T01-ethique-droit.md,draft
+T02,T,"Santé publique, système de soins, environnement et travail",programme/T02-sante-publique.md,draft
+T03,T,Médecine fondée sur les preuves et recherche,programme/T03-ebm-recherche.md,draft
+T04,T,Thérapeutique et bon usage du médicament,programme/T04-therapeutique.md,draft
+T05,T,Médecine générale et soins premiers,programme/T05-medecine-generale.md,draft
+X01,X,Neurosciences approfondies,programme/X01-neurosciences.md,draft

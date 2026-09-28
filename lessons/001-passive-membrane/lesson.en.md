@@ -2,6 +2,8 @@
 
 *Version française (référence) : [lesson.md](lesson.md).*
 
+Modules: [N03 General physiology](../../programme/N03-physiologie-generale.md), [X01 Neuroscience](../../programme/X01-neurosciences.md) (syllabi in French).
+
 Status: source_checked; not independently expert-reviewed. Prerequisites: membrane/ion basics, current and voltage, first-order ODEs. This is a teaching-style demonstration, not the beginning of the entire curriculum.
 
 **Objectives:** define the variables; check units; derive a step response; distinguish response amplitude from response speed; explain limitations.

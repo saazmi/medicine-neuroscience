@@ -2,6 +2,8 @@
 
 *English version: [lesson.en.md](lesson.en.md).*
 
+Modules : [N03 Physiologie générale](../../programme/N03-physiologie-generale.md), [X01 Neurosciences](../../programme/X01-neurosciences.md).
+
 Statut : sources contrôlées ; aucune validation indépendante par un enseignant. Prérequis : membrane et ions, courant et tension, équations différentielles du premier ordre. Exemple du format pédagogique, pas première étape du programme complet.
 
 **Objectifs :** définir les variables ; vérifier les unités ; calculer une réponse à un échelon ; distinguer amplitude et vitesse ; expliquer les limites.
