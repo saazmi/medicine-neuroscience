@@ -1,0 +1,6 @@
+objective_id,objective_en,objective_fr,status,last_attempt,score,review_due
+001-A,Explain passive model variables,Expliquer les variables du modèle passif,not_started,,,
+001-B,Check SI units,Vérifier les unités SI,not_started,,,
+001-C,Derive step response,Déduire la réponse à un échelon,not_started,,,
+001-D,Interpret amplitude and time constant,Interpréter amplitude et constante de temps,not_started,,,
+001-E,Explain model limitations,Expliquer les limites du modèle,not_started,,,
