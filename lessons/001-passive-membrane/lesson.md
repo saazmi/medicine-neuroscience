@@ -1,5 +1,7 @@
 # 001 — Membrane passive : de la biologie à l'équation
 
+*English version: [lesson.en.md](lesson.en.md).*
+
 Statut : sources contrôlées ; aucune validation indépendante par un enseignant. Prérequis : membrane et ions, courant et tension, équations différentielles du premier ordre. Exemple du format pédagogique, pas première étape du programme complet.
 
 **Objectifs :** définir les variables ; vérifier les unités ; calculer une réponse à un échelon ; distinguer amplitude et vitesse ; expliquer les limites.

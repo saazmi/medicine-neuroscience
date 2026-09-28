@@ -1,5 +1,7 @@
 # 001 — A passive membrane: from biology to an equation
 
+*Version française (référence) : [lesson.md](lesson.md).*
+
 Status: source_checked; not independently expert-reviewed. Prerequisites: membrane/ion basics, current and voltage, first-order ODEs. This is a teaching-style demonstration, not the beginning of the entire curriculum.
 
 **Objectives:** define the variables; check units; derive a step response; distinguish response amplitude from response speed; explain limitations.
@@ -44,4 +46,4 @@ Its units are ohms. Derive the magnitude and phase yourself; explain what they p
 
 **Biological boundary:** constant conductance omits voltage-dependent channel dynamics. Adding an arbitrary firing threshold would be a separate model choice, not a deduction of the action potential's shape. More detailed models explicitly include ionic conductances. [S2]
 
-Read [questions](questions.md) before [solutions](solutions.md). References: [S1–S3](../../sources/references.md). S3 is optional biological background, not the verification source for this derivation.
+Read [questions](questions.en.md) before [solutions](solutions.en.md). References: [S1–S3](../../sources/references.md). S3 is optional biological background, not the verification source for this derivation.

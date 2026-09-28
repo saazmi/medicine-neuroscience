@@ -1,40 +1,41 @@
-# ID — English title / Titre français
+# ID — Titre de la leçon
 
-Status: draft | Last source check: YYYY-MM-DD | Independent reviewer: none
+<!-- Copier ce gabarit dans lessons/NNN-nom/lesson.md (version française de référence).
+     Rédiger ensuite lessons/NNN-nom/lesson.en.md avec la même structure et le même contenu scientifique. -->
 
-**Objectives / Objectifs:** measurable outcomes.
-**Prerequisites / Prérequis:** concepts and mathematics actually needed.
+*English version: [lesson.en.md](lesson.en.md).*
 
-## Biological question / Question biologique
+Statut : draft | Dernière vérification des sources : AAAA-MM-JJ | Relecteur indépendant : aucun
 
-What observation needs explaining? / Quelle observation expliquer ?
+**Objectifs :** résultats mesurables.
+**Prérequis :** notions et mathématiques réellement nécessaires.
 
-## English explanation
+## Question biologique
 
-Structure, mechanism, regulation, relevance. Source each substantial claim.
+Quelle observation faut-il expliquer ?
 
-## Explication française
+## Explication
 
-Même contenu scientifique, avec terminologie cohérente.
+Structure, mécanisme, régulation, intérêt médical. Sourcer chaque affirmation substantielle. Utiliser la terminologie du [glossaire](../../glossary/terms.csv).
 
-## Visual evidence / Représentation visuelle
+## Représentation visuelle
 
-Original figure or licensed material, labels, units, provenance, caption, and limitations.
+Figure originale ou matériel sous licence : légendes, unités, provenance, légende de figure et limites. Libellés bilingues, français en premier.
 
-## Quantitative model / Modèle quantitatif
+## Modèle quantitatif
 
-Define variables and signs. Derive only what helps understanding. State assumptions and initial conditions. Separate predictions from measurements.
+Définir les variables et les conventions de signe. Ne dériver que ce qui aide à comprendre. Énoncer hypothèses et conditions initiales. Séparer prédictions et mesures.
 
-## Limits and evidence / Limites et preuves
+## Limites et niveau de preuve
 
-Established / Établi:
-Simplified model / Modèle simplifié:
-Open question / Question ouverte:
+Établi :
+Modèle simplifié :
+Question ouverte :
 
-## Assessment / Évaluation
+## Évaluation
 
-Recall; graph interpretation; transfer; case; misconception check. Put solutions separately.
+Rappel ; interprétation de graphique ; transfert ; cas ; vérification des idées fausses. Placer le corrigé dans un fichier séparé (`questions.md`, `solutions.md`, et leurs équivalents `.en.md`).
 
-## Sources / Références
+## Références
 
-Stable source IDs, exact sections, edition/date, URL/DOI and last verification.
+Identifiants de sources stables, sections exactes, édition ou date, URL ou DOI, et date de dernière vérification.

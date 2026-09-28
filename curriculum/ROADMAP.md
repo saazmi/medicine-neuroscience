@@ -1,37 +1,37 @@
-# Curriculum / Programme
+# Programme
 
-**Target / Cible:** broad foundational medical knowledge with a neuroscience extension. This is a proposed sequence, not a verified transcription of years 1–2 at a particular faculty. No timetable is fixed until weekly availability and initial assessment are known.
+*English version: [ROADMAP.en.md](ROADMAP.en.md).*
 
-**Profile / Profil:** prior advanced mathematics, physics, and engineering. Use diagnostic questions to locate biological gaps; do not automatically repeat school-level mathematics or assume that scientific training supplies anatomy knowledge.
+**Cible :** une connaissance large des bases médicales, prolongée par les neurosciences. Il s'agit d'une séquence proposée, pas de la transcription vérifiée des 1re et 2e années d'une faculté donnée. Aucun calendrier n'est fixé tant que la disponibilité hebdomadaire et le positionnement initial ne sont pas connus.
 
-| Block / Bloc | Core scope / Programme essentiel | Visual and mathematical work / Travail visuel et mathématique | Exit evidence / Validation |
+**Profil :** solides acquis en mathématiques, physique et ingénierie. Utiliser des questions de positionnement pour repérer les lacunes en biologie ; ne pas refaire systématiquement les mathématiques du lycée, ni supposer qu'une formation scientifique apporte des connaissances en anatomie.
+
+| Bloc | Programme essentiel | Travail visuel et mathématique | Validation |
 |---|---|---|---|
-| 00. Diagnostic / Positionnement | Chemistry, units, cells, DNA, proteins / Chimie, unités, cellules, ADN, protéines | Concentrations, logarithms, dimensional analysis / Concentrations, logarithmes, dimensions | Written explanation and calculation; identify gaps |
-| 01. Cell biology / Biologie cellulaire | Organelles, membranes, transport, signaling, cell cycle | Compartment diagrams; diffusion and transport models | Explain transport mechanisms and interpret an experiment |
-| 02. Biochemistry / Biochimie | Proteins, enzymes, metabolism, nutrition | Enzyme curves; pathway and regulation maps | Predict consequences of a pathway perturbation |
-| 03. Genetics / Génétique | Inheritance, gene expression, chromosomes, molecular methods | Pedigrees, probability, experimental controls | Interpret a pedigree and a molecular result |
-| 04. Tissues and development / Tissus et développement | Histology, embryology, developmental abnormalities | Real micrographs, labeled drawings, developmental sequences | Identify unfamiliar tissue images with justification |
-| 05. General physiology / Physiologie générale | Homeostasis, compartments, excitable membranes, muscle | Feedback diagrams, equilibrium versus steady state, RC dynamics | Explain regulation and solve physiological perturbations |
-| 06. Defense and injury / Défense et lésion | Immunology, microbiology, inflammation, repair, cancer | Cell interactions; causal maps; diagnostic uncertainty | Distinguish mechanisms using short cases |
-| 07. Organ systems / Appareils | Cardiovascular, respiratory, renal, gastrointestinal, endocrine, reproductive, musculoskeletal, skin, blood | Anatomy and histology alongside pressure–flow, gas exchange, balance and endocrine models | Integrate structure, normal function and introductory disease mechanisms |
-| 08. Pharmacology / Pharmacologie | Pharmacodynamics and pharmacokinetics; major mechanisms | Dose–response and concentration–time curves | Explain model assumptions and predict qualitative effects |
-| 09. Nervous system / Système nerveux | Neuroanatomy, synapses, sensation, movement, autonomic function, cognition | Pathways, neural recordings, lesion localization on written cases | Connect cells, circuits, behavior and selected disorders |
-| 10. Evidence and medicine / Preuves et médecine | Biostatistics, epidemiology, ethics, public health, sémiologie | Study designs, uncertainty intervals, diagnostic probability | Critique a paper and explain competing interpretations |
-| 11. Neuroscience extension / Approfondissement | Neural coding, dynamics, computational models and research methods | Reproducible analyses and simulations | Reproduce a result and defend the model's limitations |
+| 00. Positionnement | Chimie, unités, cellules, ADN, protéines | Concentrations, logarithmes, analyse dimensionnelle | Explication écrite et calcul ; identification des lacunes |
+| 01. Biologie cellulaire | Organites, membranes, transport, signalisation, cycle cellulaire | Schémas des compartiments ; modèles de diffusion et de transport | Expliquer les mécanismes de transport et interpréter une expérience |
+| 02. Biochimie | Protéines, enzymes, métabolisme, nutrition | Courbes enzymatiques ; cartes des voies métaboliques et de leur régulation | Prédire les conséquences de la perturbation d'une voie |
+| 03. Génétique | Hérédité, expression des gènes, chromosomes, méthodes moléculaires | Arbres généalogiques, probabilités, témoins expérimentaux | Interpréter un arbre généalogique et un résultat moléculaire |
+| 04. Tissus et développement | Histologie, embryologie, anomalies du développement | Micrographies réelles, dessins légendés, séquences du développement | Identifier des images tissulaires inconnues en justifiant |
+| 05. Physiologie générale | Homéostasie, compartiments, membranes excitables, muscle | Schémas de rétroaction, équilibre et état stationnaire, dynamique RC | Expliquer une régulation et résoudre des perturbations physiologiques |
+| 06. Défense et lésion | Immunologie, microbiologie, inflammation, réparation, cancer | Interactions cellulaires ; cartes causales ; incertitude diagnostique | Distinguer des mécanismes à partir de cas courts |
+| 07. Appareils | Cardiovasculaire, respiratoire, rénal, digestif, endocrinien, reproducteur, locomoteur, peau, sang | Anatomie et histologie, avec modèles pression–débit, échanges gazeux, bilans et régulations endocriniennes | Relier structure, fonction normale et premiers mécanismes pathologiques |
+| 08. Pharmacologie | Pharmacodynamie et pharmacocinétique ; grands mécanismes | Courbes dose–effet et concentration–temps | Expliquer les hypothèses d'un modèle et prédire des effets qualitatifs |
+| 09. Système nerveux | Neuroanatomie, synapses, sensibilité, motricité, système nerveux autonome, cognition | Voies, enregistrements neuronaux, localisation lésionnelle sur cas écrits | Relier cellules, circuits, comportement et certaines pathologies |
+| 10. Preuves et médecine | Biostatistique, épidémiologie, éthique, santé publique, sémiologie | Plans d'étude, intervalles d'incertitude, probabilité diagnostique | Critiquer un article et exposer les interprétations concurrentes |
+| 11. Approfondissement en neurosciences | Codage neuronal, dynamique, modèles computationnels, méthodes de recherche | Analyses et simulations reproductibles | Reproduire un résultat et défendre les limites du modèle |
 
-Blocks 04, 08 and 10 recur across organ systems; they are not postponed until the end. Learn clinical vocabulary through written cases while recognizing that physical examination and patient assessment require supervised practical teaching.
+Les blocs 04, 08 et 10 reviennent tout au long de l'étude des appareils ; ils ne sont pas repoussés à la fin. Apprendre le vocabulaire clinique à travers des cas écrits, en gardant à l'esprit que l'examen physique et l'évaluation du patient exigent un enseignement pratique encadré.
 
-## Starting sequence / Séquence initiale
+## Séquence initiale
 
-1. Diagnostic and repair of prerequisites / Positionnement et remise à niveau ciblée.
-2. Cell organization, membrane composition, concentration gradients / Organisation cellulaire, membrane, gradients.
-3. Diffusion, osmosis, carriers, pumps / Diffusion, osmose, transporteurs, pompes.
-4. Membrane electricity: potential, current, capacitance, conductance / Électricité membranaire.
-5. Demonstration lesson 001: passive membrane / Leçon 001 : membrane passive.
-6. Next lessons to author: ionic equilibrium, Nernst equation, multiple-ion permeability, active signaling / À rédiger : équilibre ionique, Nernst, perméabilités multiples, signalisation active.
+1. Positionnement et remise à niveau ciblée des prérequis.
+2. Organisation cellulaire, composition de la membrane, gradients de concentration.
+3. Diffusion, osmose, transporteurs, pompes.
+4. Électricité membranaire : potentiel, courant, capacité, conductance.
+5. Leçon de démonstration 001 : membrane passive.
+6. Prochaines leçons à rédiger : équilibre ionique, équation de Nernst, perméabilités multiples, signalisation active.
 
-## Depth / Profondeur
+## Profondeur
 
-Each module has three layers: medical core, mechanistic/mathematical extension, and research appraisal. Complete the core before spending disproportionate time on a favorite derivation. Anatomy, microscopic recognition, and empirical findings remain essential even when they cannot be derived from first principles.
-
-Chaque module associe un socle médical, un approfondissement mécanistique et mathématique, puis une lecture critique de la recherche. Une équation élégante ne dispense pas de connaître les structures ni les observations biologiques.
+Chaque module comporte trois niveaux : un socle médical, un approfondissement mécanistique et mathématique, puis une lecture critique de la recherche. Terminer le socle avant de consacrer un temps disproportionné à une démonstration favorite. L'anatomie, la reconnaissance microscopique et les observations empiriques restent indispensables, même lorsqu'elles ne se déduisent pas de premiers principes. Une équation élégante ne dispense pas de connaître les structures ni les observations biologiques.

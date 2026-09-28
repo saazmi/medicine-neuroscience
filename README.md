@@ -1,67 +1,70 @@
-# Medicine → Neuroscience / Médecine → Neurosciences
+# Médecine → Neurosciences
 
-Bilingual, visual, mathematical self-study of foundational medicine.
-Étude personnelle bilingue, visuelle et mathématique des sciences médicales fondamentales.
+Étude personnelle, visuelle et mathématique des sciences médicales fondamentales, puis des neurosciences. Le français est la langue de référence ; une version anglaise accompagne les documents principaux.
 
-**Status / Statut:** starter repository; one demonstration lesson, not a complete medical course. Teaching notes are AI-assisted, source-linked, and not independently reviewed by medical faculty.
-**Objectif:** viser la maîtrise théorique des sciences précliniques, puis approfondir les neurosciences. Aucun diplôme ni équivalence clinique n'est conféré.
+*English version: [README.en.md](README.en.md).*
 
-Start with [the curriculum](curriculum/ROADMAP.md), [quality standards](curriculum/QUALITY.md), then the demonstration in [English](lessons/001-passive-membrane/lesson.en.md) or [French](lessons/001-passive-membrane/lesson.fr.md). The demonstration is a preview of the teaching style, not a claim that membrane modeling replaces introductory cell biology.
+**Statut :** dépôt de départ ; une leçon de démonstration, pas un cursus médical complet. Les notes sont rédigées avec l'aide de l'IA, reliées à leurs sources, et non validées de façon indépendante par des enseignants en médecine.
+**Objectif :** viser la maîtrise théorique des sciences précliniques, puis approfondir les neurosciences. Aucun diplôme ni équivalence clinique n'est conféré.
 
-## Navigation
+Commencer par [le programme](curriculum/ROADMAP.md) et [les exigences de qualité](curriculum/QUALITY.md), puis la [leçon de démonstration](lessons/001-passive-membrane/lesson.md) ([version anglaise](lessons/001-passive-membrane/lesson.en.md)). Cette leçon illustre le format pédagogique ; elle ne prétend pas que la modélisation de la membrane remplace la biologie cellulaire d'introduction.
 
-| Location | Purpose / Rôle |
+## Organisation
+
+| Emplacement | Rôle |
 |---|---|
-| `curriculum/` | Scope, prerequisites, and evidence standards / Programme et exigences |
-| `lessons/001-passive-membrane/` | Two language versions, graph, reproducible Python, exercises and solutions |
-| `templates/lesson.md` | Reusable lesson structure / Structure d'une future leçon |
-| `glossary/terms.csv` | Shared EN–FR terminology / Terminologie commune |
-| `sources/references.md` | Linked references, source role, and review date |
-| `progress/tracker.csv` | Objective-level tracking / Suivi par objectif |
-| `progress/errors.md` | Error log / Journal des erreurs |
+| `curriculum/` | Programme, prérequis et exigences de preuve |
+| `lessons/001-passive-membrane/` | Leçon (FR + EN), figure, code Python reproductible, exercices et corrigé |
+| `templates/lesson.md` | Structure d'une future leçon |
+| `glossary/terms.csv` | Terminologie commune FR–EN |
+| `sources/references.md` | Références, rôle de chaque source et date de vérification |
+| `progress/tracker.csv` | Suivi par objectif |
+| `progress/errors.md` | Journal des erreurs |
 
-## Study cycle / Cycle d'étude
+**Langues :** un fichier sans suffixe (`lesson.md`, `questions.md`…) est en français et fait foi ; son équivalent anglais porte le suffixe `.en.md`. Voir la [politique bilingue](curriculum/QUALITY.md#politique-bilingue).
 
-1. Read in either language; use the second version to check meaning. / Lire dans une langue, puis vérifier le sens dans l'autre.
-2. Draw and explain without notes. / Dessiner et expliquer sans notes.
-3. Solve unseen questions before opening solutions. / Résoudre avant de consulter le corrigé.
-4. Record mistakes and supporting references. / Consigner les erreurs et leurs sources.
-5. Revisit after approximately 1, 7, and 30 days, adapting intervals to performance. / Réviser à intervalles adaptés aux résultats.
+## Cycle d'étude
 
-Reading a lesson is not evidence of mastery. A self-imposed progression rule is at least 80% on unseen questions, no unresolved central misconception, and a successful delayed explanation. This is a study heuristic, not an official examination threshold or proof of equivalence.
+1. Lire la version française ; consulter la version anglaise pour vérifier le sens ou la terminologie internationale.
+2. Dessiner et expliquer sans notes.
+3. Résoudre les questions inédites avant d'ouvrir le corrigé.
+4. Consigner les erreurs et les sources qui les corrigent.
+5. Réviser après environ 1, 7 et 30 jours, en adaptant les intervalles aux résultats.
+
+Lire une leçon ne prouve pas qu'elle est maîtrisée. Règle de progression personnelle : au moins 80 % aux questions inédites, aucune erreur conceptuelle centrale non résolue, et une explication différée réussie. C'est une règle d'étude, pas un seuil d'examen officiel ni une preuve d'équivalence.
 
 ## Git
 
-The ZIP includes a local Git repository and its initial commit. Extract it, open the folder in VS Code, and run these commands in Git Bash:
+Le dépôt est publié sur GitHub : <https://github.com/saazmi/medicine-neuroscience>.
 
 ```bash
-git status
-git log --oneline
+git clone https://github.com/saazmi/medicine-neuroscience.git
 ```
 
-Before your own first commit, set your chosen identity locally:
+Avant le premier commit, définir son identité localement :
 
 ```bash
-git config user.name "Your name"
-git config user.email "Your chosen email"
+git config user.name "Votre nom"
+git config user.email "Votre adresse"
 ```
 
-For each learning session:
+À chaque séance :
 
 ```bash
 git add lessons glossary progress
-git commit -m "study: explain membrane response and correct unit errors"
+git commit -m "étude : expliquer la réponse membranaire et corriger les erreurs d'unités"
+git push
 ```
 
-No remote is configured. You can later attach your own GitHub, GitLab, or other remote. Commit original notes, source links, and original figures; link to textbooks instead of putting copyrighted book scans in the repository.
+Versionner les notes originales, les liens vers les sources et les figures originales ; renvoyer vers les manuels plutôt que d'ajouter des scans d'ouvrages protégés par le droit d'auteur.
 
-## Reproduce the figure / Reproduire la figure
+## Reproduire la figure
 
-Python 3 with NumPy and Matplotlib is required only to regenerate the plots. Markdown and the included PNG/SVG work without Python.
+Python 3 avec NumPy et Matplotlib n'est nécessaire que pour régénérer les graphiques. Les fichiers Markdown et les images PNG/SVG fournies fonctionnent sans Python.
 
 ```bash
 python -m pip install -r requirements.txt
 python lessons/001-passive-membrane/plot.py
 ```
 
-See [references](sources/references.md) for provenance. Equations use Markdown math; display support depends on the editor. The diagrams and calculations supplement biological understanding, anatomical study, and evidence appraisal.
+Voir les [références](sources/references.md) pour la provenance. Les équations utilisent la syntaxe mathématique Markdown ; l'affichage dépend de l'éditeur. Les schémas et calculs complètent la compréhension biologique, l'étude anatomique et l'analyse critique des preuves ; ils ne les remplacent pas.

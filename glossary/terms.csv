@@ -1,17 +1,17 @@
-id,en,fr
-membrane_potential,membrane potential,potentiel de membrane
-resting_potential,resting membrane potential,potentiel de repos
-capacitance,membrane capacitance,capacité membranaire
+id,fr,en
+membrane_potential,potentiel de membrane,membrane potential
+resting_potential,potentiel de repos,resting membrane potential
+capacitance,capacité membranaire,membrane capacitance
 conductance,conductance,conductance
-resistance,input resistance,résistance d'entrée
-time_constant,membrane time constant,constante de temps membranaire
-depolarization,depolarization,dépolarisation
-hyperpolarization,hyperpolarization,hyperpolarisation
-leak_current,leak current,courant de fuite
-reversal_potential,reversal potential,potentiel d'inversion
-equilibrium,equilibrium,équilibre
-steady_state,steady state,état stationnaire
-action_potential,action potential,potentiel d'action
-ion_channel,ion channel,canal ionique
-electrochemical_gradient,electrochemical gradient,gradient électrochimique
-threshold,threshold,seuil
+resistance,résistance d'entrée,input resistance
+time_constant,constante de temps membranaire,membrane time constant
+depolarization,dépolarisation,depolarization
+hyperpolarization,hyperpolarisation,hyperpolarization
+leak_current,courant de fuite,leak current
+reversal_potential,potentiel d'inversion,reversal potential
+equilibrium,équilibre,equilibrium
+steady_state,état stationnaire,steady state
+action_potential,potentiel d'action,action potential
+ion_channel,canal ionique,ion channel
+electrochemical_gradient,gradient électrochimique,electrochemical gradient
+threshold,seuil,threshold
